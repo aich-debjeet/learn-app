@@ -1,0 +1,170 @@
+.container{
+    position: relative;
+    width: 1440px;
+    height:2859px;
+    background-color: rgba(25, 25, 32, 1);
+    .nav-bar{
+        height:75px;
+        &__left{
+            display: inline-block;
+            height: 30px;
+            width: 580px;
+            left: 60px;
+            top: 23px;
+            border-radius: 0px;
+            border: 1px solid rgba(255, 255, 255, 1);
+
+            li{
+                display: inline-block;
+                height: 21px;
+                width: 101px;
+                left: 255px;
+                top: 28px;
+                border-radius: 0px;
+                color:snow;
+                font-weight: 500;
+            }
+        }
+        &__search{
+            height: 48px;
+            width: 256px;
+            left: 895px;
+            top: 13px;
+        }
+        &__butt{
+            height: 16px;
+            width: 100%;
+            left: 1337px;
+            top: 30px;
+            .submit{
+                font-family: Montserrat;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.5333333611488342px;
+                text-align: left;
+                height: 15px;
+                width: 45px;
+                border-radius: 6px;
+                padding: 3px 0px 17px 4px;
+                background-color:lightskyblue;
+
+            }
+
+        }
+
+    }
+    .join-us{
+        position:absolute;
+        height: 205px;
+        width: 531px;
+        left: 125px;
+        top: 293px;
+        &__head{
+            
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+
+        }
+        &__desc{
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+        &__description{
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+
+        }
+    }
+    &__images{
+        display:flex;
+        flex-flow:column wrap;
+        position: relative;
+        left: 741px;
+        top: 166px;
+        border-radius: 0px;
+
+    }
+    &__images-column{
+        flex:50%;
+        max-width: 50%;
+    }
+    .opening{
+        position:absolute;
+        color: rgba(255, 255, 255, 1);
+        height: 36px;
+        width: 932.055908203125px;
+        left: 254px;
+        top: 676px;
+        border-radius: nullpx;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+    }
+    .openings-list{
+        position: absolute;
+        display: inline-block;
+        height: 282px;
+        width: 1138px;
+        left: 151px;
+        top: 762px;
+        &__1{
+            display: inline-block;
+            height: 282px;
+            width: 262px;
+            background: #292A35;
+border-radius: 20px;
+margin: 0px 10px 0px 10px;
+        }
+        &__2{
+            display: inline-block;
+            height: 282px;
+            width: 262px;
+            background: #292A35;
+border-radius: 20px;
+margin: 0px 10px 0px 10px;
+        }
+        &__3{
+            display: inline-block;
+            height: 282px;
+            width: 262px;
+            background: #292A35;
+border-radius: 20px;
+margin: 0px 10px 0px 10px;
+        }
+        &__4{
+            display: inline-block;
+            height: 282px;
+            width: 262px;
+            background: #292A35;
+border-radius: 20px;
+margin: 0px 10px 0px 10px;
+        }
+    }
+}
